@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	background: #181818;
+}
+body{
+	font-family: arial, verdana, "times new roman" sans-sarif;
+	font-size: 16px;
+}
+.container{
+	width:1000px;
+	margin:auto;
+}
+header{
+	background: #EDEDED;
+	overflow: hidden;
+	padding: 20px;
+}
+span{
+	font-style: italic;
+	color:#534370;
+	font-size:15px;
+}
+.hleft img{
+	width:150px;
+	height:150px;
+	float: left;
+	border-radius: 60%;
+}
+.hleft>h1,h2{
+	margin:20px 0px 0px 15px;
+	display: inline-block;
+}
+.hright{
+	float: right;
+	margin-top: -70px;
+}
+.profile{
+	border-bottom: 1px solid #C5C5C5;
+	padding: 20px;
+	overflow: hidden;
+	background: #F3F3F3;
+}
+.exprience{
+	border-bottom: 1px solid #C5C5C5;
+	padding: 20px;
+	overflow: hidden;
+	background: #F3F3F3;
+}
+.pleft{
+	width:25%;
+	float: left;
+}
+.pleft h3{
+	font-style: italic;
+}
+.pright{
+	width: 75%;
+	float: right;
+	text-align: justify;
+}
+.skill{
+	padding: 20px;
+	overflow: hidden;
+	border-bottom: 1px solid #C5C5C5;
+	background: #F3F3F3;
+}
+.skill>.pright{
+	display: flex;
+}
+.skill>.pright>.flex{
+	width: 33%;
+}
+.education{
+	border-bottom: 1px solid #C5C5C5;
+	padding: 20px;
+	overflow: hidden;
+	clear: both;
+	background: #F3F3F3;
+}
+.education>.pleft{
+	width:25%;
+	float: left;
+}
+.education>.pright{
+	width: 75%;
+	float: right;
+	text-align: justify;
+}
